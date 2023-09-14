@@ -1,0 +1,49 @@
+<div class="filter-container">
+    <p><i class="fa-solid fa-arrow-up-wide-short"></i>filter</p>
+
+    <div class="filter" ng-controller="filterCtrl">
+        <div class="filter-section">
+            <p><span>Category</span><button>+</button></p> 
+            <ul class="display-none filtering">
+                <li><a href="">Living Room Chair</a></li>
+                <li><a href="">TV Stand & Entertainment Center</a></li>
+                <li><a href="">Bookshelves & Bookcases</a></li>
+                <li><a href="">Benches and Settes</a></li>
+            </ul>
+        </div>
+        <div class="filter-section">
+            <p><span>Type</span><button >+</button></p> 
+            <ul class="display-none filtering">
+                <li><a href="">homie</a></li>
+                <li><a href="">homie</a></li>
+                <li><a href="">homie</a></li>
+            </ul>
+        </div>
+        <div class="filter-section">
+            <p><span>Price Range</span><button>+</button></p> 
+            <ul class="display-none filtering">
+                <li><a href="" ng-click="lessthan500()">under ngn150000</a></li>
+                <li><a href="" ng-click="lessthan2000()">ngn 150000 - ngn 200000</a></li>
+                <li><a href="" ng-click="lessthan5000()">ngn 200000-ngn 500000</a></li>
+            </ul>
+        </div>
+        <div class="filter-section">
+            <p><span>Material</span><button>+</button></p> 
+            <ul class="display-none filtering">
+                <li><a href="" ng-click="polyester()">polyester</a></li>
+                <li><a href="" ng-click="wood()">Wood</a></li>
+                <li><a href="" ng-click="metal()">metal</a></li>
+            </ul>
+        </div>
+        <div class="filter-section">
+            <p><span>Brands</span><button>+</button></p> 
+            <ul class="display-none filtering">
+                <li><a href="" ng-click="cooper()">Cooper Grove</a></li>
+                <li><a href="" ng-click="america()">Furniture of America</a></li>
+                <li><a href="" ng-click="porch()">Porch & Den</a></li>
+            </ul>
+        </div>
+    </div> 
+</div>
+
+   

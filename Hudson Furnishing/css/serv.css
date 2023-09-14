@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    box-sizing: border-box;
+}
+.serv-section{
+    background: url(img/samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+    background-size: cover;
+    padding: 60px 0;
+    width: 100%;
+    
+}
+.inner-width{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.section-title{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+.border{
+    width: 190px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+}
+.serv-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.serv-box{
+    max-width: 33.3%;
+    padding: 35px;
+    text-align: center;
+    color: black;
+    cursor: pointer;   
+    filter: brightness(40%);
+}
+.serv-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    color: rgb(11, 122, 122);
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 26px;
+    transition: 0.3s linear;
+}
+.serv-icon i{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+}
+.serv-box:hover .serv-icon{
+    background:  rgba(11, 122, 122, 0.808);
+    color: white;
+}
+.serv-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.serv-text{
+    font-size: 14px;
+    text-align: center;
+}
+@media screen and (max-width: 960px) {
+    .serv-box{
+        max-width: 45%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .serv-box{
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .serv-box{
+        max-width: 100%;
+    }
+}
+.conta{
+    /*
+    background: url(img/samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+    background-size: cover;
+    */
+    background-color:  rgba(11, 122, 122, 0.808);
+
+}
+.specialties {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    padding: 90px 0;
+}
+.specs {
+    padding: 60px 12px;
+    width: 20%;
+    cursor: pointer;
+    margin: 15px 50px;
+    transition: .5s ease;
+    border: 1px solid rgb(202, 197, 197);
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+    background-color: white;
+}
+.text{
+    position: relative;
+    top: 40px;
+}
+.specs:hover {
+    box-shadow: 10px 10px 15px black;
+    background-color: black;
+    color: white;
+}
+.star {
+    color: rgb(11, 122, 122);
+    font-size: 30px;
+}
+.specs_h {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}

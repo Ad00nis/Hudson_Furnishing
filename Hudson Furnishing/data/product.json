@@ -1,0 +1,206 @@
+[
+    {
+        "name": "Copper Grove Cornflower Caribbean Blue Linen Curved Back Arm Chair",
+        "img": [
+            "images/cornflower/img1.jpg", 
+            "images/cornflower/img2.jpg", 
+            "images/cornflower/img3.jpg", 
+            "images/cornflower/img4.jpg", 
+            "images/cornflower/img4.jpg" 
+        ],
+        "brand": "cooper groove",
+        "price": 368525.27,
+        "material": "wood",
+        "description": "Introduce a touch of luxury to your living space with the Copper Grove Ludberg Channel-tufted Upholstered Velvet Armchair. This barrel back armchair features chic channel tufting and stain-resistant velvet polyester upholstery, bringing retro-modern design elements to the Chesterfield-inspired profile. The removable seat and backrest are densely padded for comfortable seating, making it perfect for long conversations or lazy afternoons."
+    },
+    {
+        "name": "Copper Grove Ludberg Channel-tufted Upholstered Velvet Armchair",
+        "img": [
+            "images/Channel-tufted/img1.jpg", 
+            "images/Channel-tufted/img2.jpg", 
+            "images/Channel-tufted/img3.jpg", 
+            "images/Channel-tufted/img4.jpg", 
+            "images/Channel-tufted/img4.jpg" 
+        ],
+        "brand": "cooper groove",
+        "price": 245075.69,
+        "material": "wood",
+        "description": "Add stylish seating and a pop of bold color to your living space with this stunning arm chair from Copper Grove. Upholstered in a lively blue linen fabric, this cozy arm chair showcases a timeless, classic design with rolled arms and espresso-finished wooden legs."
+    },
+    {
+        "name": "Copper Grovee Helena Brown Leatherette Barrel Chair and Ottoman",
+        "img":[
+            "images/cormflur/img3.jpg"
+        ],
+        "brand": "cooper groove",
+        "price": 369525.27,
+        "material": "wood, polyester",
+        "description": "Add stylish seating and a pop of bold color to your living space with this stunning arm chair from Copper Grove. Upholstered in a lively blue linen fabric, this cozy arm chair showcases a timeless, classic design with rolled arms and espresso-finished wooden legs."
+    },
+    {
+        "name": "Copper Grove Herve Amethyst Purple Linen Arm Chair",
+        "img": [
+            "images/Amethyst/img1.jpg", 
+            "images/Amethyst/img2.jpg", 
+            "images/Amethyst/img3.jpg", 
+            "images/Amethyst/img4.jpg", 
+            "images/Amethyst/img5.jpg" 
+        ],
+        "brand": "cooper groove",
+        "price": 294223.21,
+        "material": "polyester",
+        "description": "The Copper Grove Herve arm chair is covered in an amethyst purple linen-like fabric. This traditional chair features a rolled arm, squared tight back design, box style seat, welted trim and hand applied pewter nail head details. The seat cushion has thick foam and pocket coils over a sinuous spring seat deck for extraordinary comfort."
+    },
+    {
+        "name": "Copper Grove Brettenham Plush Chocolate Microfiber Recliner Chair",
+        "img":[
+            "images/recliner/img1.jpg",
+            "images/recliner/img2.jpg",
+            "images/recliner/img3.jpg"
+        ],
+        "brand": "cooper groove",
+        "price": 307278.71,
+        "material": "microfiber",
+        "description": "Indulge in relaxation and opulence with the Copper Grove Brettenham Plush Chocolate Microfiber Recliner Chair. Made with a sturdy wooden frame, this recliner is upholstered in chocolate microfiber that is both soft and easy to clean. Its deeply padded seating surfaces provide unmatched comfort while the full-sized footrest and durable steel recliner mechanism ensure maximum relaxation. With its ability to fully recline with just 5 inches of space from the wall, this chair is perfect for any living space."
+    },
+    {
+        "name": "Porch & Den Canal Chair with Single Charging Station",
+        "img": [
+            "images/Canal/img1.jpg", 
+            "images/Canal/img2.jpg", 
+            "images/Canal/img3.jpg", 
+            "images/Canal/img4.jpg", 
+            "images/Canal/img4.jpg" 
+        ],
+        "brand": "Porch & Den",
+        "price": 353299.53,
+        "material": "wood, fabric, metal",
+        "description": "Relax in the contemporary Canal chair while the convenient USB charging station recharges your computer or tablet. The squared frame is reinforced with a sturdy box-spring seat and upholstered with 70% polyester 30% cotton blend with 100% polyurethane back upholstery for lasting style. Choose from two versatile color options to complement your modern decor."
+    },
+    {
+        "name": "Porch & Den Owyhee Adjustable Folding Sofa Bed Chair with Pillows",
+        "img": [
+            "images/Owyhee/img1.jpg", 
+            "images/Owyhee/img2.jpg", 
+            "images/Owyhee/img3.jpg", 
+            "images/Owyhee/img4.jpg", 
+            "images/Owyhee/img4.jpg" 
+        ],
+        "brand": "Porch & Den",
+        "price": 252905.50,
+        "material": "foam",
+        "description": "Looking for a versatile piece of furniture that can adapt to your needs? Look no further than the Porch & Den Owyhee Adjustable Folding Sofa Bed Chair with Pillows. Whether you need a comfortable spot to sit, a cozy place to lounge, or a quick and easy bed for overnight guests, this chair has you covered. With an adjustable back that can be set to five different angles, breathable and comfortable fabric, and a strong steel interior frame, this chair is perfect for small spaces and available in multiple color options."
+    },
+    {
+        "name": "Porch & Den Adjustable Foldable Floor Sofa with Two Pillows",
+        "img": [
+            "images/Adjustable/img1.jpg", 
+            "images/Adjustable/img2.jpg", 
+            "images/Adjustable/img3.jpg", 
+            "images/Adjustable/img4.jpg", 
+            "images/Adjustable/img5.jpg" 
+        ],
+        "brand": "Porch & Den",
+        "price": 277805.87,
+        "material": "fabric, feathers",
+        "description": "Be it a studio apartment that needs a sofa and bed in one or just a casual basement looking for a seating solution, the floor sofa is always the perfect pick. Merax Adjustable Foldable Floor Sofa with Two Pillows will give you a new level of comfort with a limited budget. Padded for medium support, it offers stylish faux leather/polyester fabric upholstery."
+    },
+    {
+        "name": "Porch & Den Cumberland Red Button Tufted Lounge Chair",
+        "img": [
+            "images/Cumberland/img1.jpg", 
+            "images/Cumberland/img2.jpg", 
+            "images/Cumberland/img3.jpg", 
+            "images/Cumberland/img4.jpg", 
+            "images/Cumberland/img5.jpg" 
+        ],
+        "brand": "Porch & Den",
+        "price": 152511.48,
+        "material": "wood",
+        "description": "Classic design meets modern appeal with this stunning textured red lounge chair complemented by its rich dark walnut finish. The chairs durable padding and sturdy hardwood frame will allow this piece to be utilized for years to come. The mix of a warm red textured fabric, button tufting and clean lines adds sophistication and elegance to virtually any home décor and can be a functional & artistic addition to your living room, bedroom or den."
+    },
+    {
+        "name": "Porch & Den McRee Tufted Slipper Chair",
+        "img": [
+            "images/McRee/img1.jpg", 
+            "images/McRee/img2.jpg", 
+            "images/McRee/img3.jpg", 
+            "images/McRee/img4.jpg", 
+            "images/McRee/img5.jpg" 
+        ],
+        "brand": "Porch & Den",
+        "price": 116976.85,
+        "material": "Bonded-leader, wood",
+        "description": "Make a statement in your living area with the McRee tufted slipper chair by Porch & Den. This modern chair boasts a kiln-dried wood frame, curved backrest, extra wide seat, and biscuit tufting. Available in six faux-leather upholstery colors to match your decor, this chair is both stylish and comfortable."
+    },
+    {
+        "name": "Furniture of America Waters Blue Mid-Century Modern Office Chair",
+        "img": [
+            "images/Waters/img1.jpg", 
+            "images/Waters/img2.jpg", 
+            "images/Waters/img3.jpg", 
+            "images/Waters/img4.jpg", 
+            "images/Waters/img5.jpg" 
+        ],
+        "brand": "Furniture of America",
+        "price": 237724.90,
+        "material": "metal",
+        "description": "This classic blue office seat embraces Mid-Century Modern style with its flared-out legs, curves, and button-tufted backrest. A velvet-like seatback is shaped by irregular curves for that ultra-unique look. The premium quality, sturdy metal, legs wear floor protective caps."
+    },
+    {
+        "name": "Furniture of America Gill Modern Faux Leather Curved Accent Chair",
+        "img": [
+            "images/Gill/img1.jpg", 
+            "images/Gill/img2.jpg", 
+            "images/Gill/img3.jpg", 
+            "images/Gill/img4.jpg", 
+            "images/Gill/img5.jpg" 
+        ],
+        "brand": "Furniture of America",
+        "price": 184475.22,
+        "material": "metal",
+        "description": "Enjoy the clean, crisp design of this contemporary accent chair. A contoured silhouette adds the perfect pop of wow to light up any room, complete with smooth lines and alluring soft edges. It sits on durable metal legs that have a slight angle for the sturdy support you want."
+    },
+    {
+        "name": "Furniture of America Balf Modern Padded Accent Chair (Set of 2)",
+        "img": [
+            "images/Balf/img1.jpg", 
+            "images/Balf/img2.jpg", 
+            "images/Balf/img3.jpg", 
+            "images/Balf/img4.jpg", 
+            "images/Balf/img5.jpg" 
+        ],
+        "brand": "Furniture of America",
+        "price": 346845.81,
+        "material": "wood",
+        "description": "This two accent chairs by Furniture of America completes your living area with its stylish and mid-century modern design. The accent chair features a filled seat cushion and seat back, providing plenty of comfort for anyone lucky enough to take a seat in it. Your new chair is upholstered in a faux leather material for a hint of luxury that's easy to clean, and blends flawlessly with your existing decor. It proudly boasts a smooth, clean-lined silhouette paired with tapered legs to create a touch of retro appeal. Varying color options make it easy to accessorize your living room with the perfect seating piece."
+    },
+    {
+        "name": "Furniture of America Alcor Traditional Dark Cherry Accent Chair",
+        "img": [
+            "images/Alcor/img1.jpg", 
+            "images/Alcor/img2.jpg", 
+            "images/Alcor/img3.jpg", 
+            "images/Alcor/img4.jpg", 
+            "images/Alcor/img5.jpg" 
+        ],
+        "brand": "Furniture of America",
+        "price": 381004.34,
+        "material": "wood",
+        "description": "The rich appearance and classic design of this accent chair from Furniture of America will give your home the sophistication you've been looking for. This chair has a regal presence with a rustic and traditional style flair. Exquisite details are found along the frame with molding details along with stunning cabriole style legs that pack a punch."
+    },
+    {
+        "name": "Furniture of America Wiz Modern Metal Slatted Dining Chairs (Set of 2)",
+        "img": [
+            "images/Wiz/img1.jpg", 
+            "images/Wiz/img2.jpg", 
+            "images/Wiz/img3.jpg", 
+            "images/Wiz/img4.jpg", 
+            "images/Wiz/img5.jpg" 
+        ],
+        "brand": "Furniture of America",
+        "price": 153312.75,
+        "material": "metal",
+        "description": "Enhance any contemporary home with the versatile, stylish design of this set of two industrial side chairs from Furniture of America. They are fashioned with sturdy steel construction in a finish that matches well with nearly any decor. Each chair features a contoured seat and sleek slatback design that draws the eye and keeps you comfortable. The solid legs include footrests to accentuate the modern-industrial appeal. They're designed for use in the dining room, yet are also ideal as an accent chair in a living room or entertainment room as well as a desk chair in a home office. However you use them, they offer a sleek industrial look while promising long-lasting service."
+    }
+]

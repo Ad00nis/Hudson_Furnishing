@@ -1,0 +1,121 @@
+.accordion-container {
+    /* min-height: 100vh; */
+    margin: 0;
+    padding: 3rem;
+}
+
+/* OUR ACCORDION WRAPPER */
+.accordion > h1 {
+    margin: 1.5rem 0;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+.accordion {
+    /* THIS MAKES IT RESPONSIVE */
+    max-width: 75%;
+    margin: auto;
+    /* THIS MAKES IT RESPONSIVE (END)*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /*Overflow hidden makes sure that this b.r still works when we have some child element  */
+    overflow: hidden;
+    /*Overflow hidden makes sure that this b.r still works when we have some child element  */
+    font-family: 'Kumbh Sans', sans-serif;
+    background:  rgba(11, 122, 122, 0.808);
+    max-width: 44rem;
+    position: 4.375rem 6.25rem 4.375rem 0;
+    
+}
+
+/* INPUT  */
+.accordion__input {
+     display: none; 
+}
+
+.accordion__input:checked ~ .accordion__content {
+    display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after {
+    transform: translateY(-50%)rotate(0.5turn);
+}
+
+/*  input END*/
+
+
+/* 
+* <!--LABEL FOR QUESTION --> (&)
+? <!--: FAQ ANSWER DIVIDER -->
+! (-- -- -- STYLING -- -- --)
+*/
+
+.accordion__label,
+.accordion__content {
+    /*14px(T & B), 20px(l & R)  */
+     padding: 14px 20px; 
+    /*14px(T & B), 20px(l & R)  */
+}
+
+.accordion__label {
+    display: block;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    /* We want to have the ability to hover the label */
+    transition: background 0.1s;
+    /* We want to have the ability to hover the label */
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion__label:hover {
+    /* With the transition property and background this one is gonna darken of the label when we hover over it */
+    background: rgba(0, 0, 0, 0.1);
+    /* With the transition property and background this one is gonna darken of the label when we hover over it */
+}
+
+    /* 
+    ? Creating the icon that appears on the right side of the element (We used a css pseudo element ::after
+    */
+
+    .accordion__label::after {
+        content: "";
+        /* POSITION ABSOLUTE IT WORKS ALONG WITH THE POSITION RELATIVE (above), as the parent of the (.accordion__label), the after is gonna be a child of the label. So this after is relative to the (.accordion label) */
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 20px;
+        background-image: url('icons/DropDown\ arrow.svg');
+        background-size: cover;    
+        transition: transform 0.4s;
+        
+    }
+
+    /* 
+    ? Creating the icon that appears on the right side of the element (We used a pseudo element after (END)
+    */
+
+
+/* 
+* <!--LABEL FOR QUESTION (END) --> (&)
+? <!--: FAQ ANSWER DIVIDER (END) -->
+! (-- -- -- STYLING -- -- --)
+*/
+
+/* UserDEE: <!--!: FAQ ANSWER DIVIDER --> */
+ .accordion__content {
+    background: #ffffff;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none; 
+ }
+
+/* UserDEE: <!--!: FAQ ANSWER DIVIDER (END) --> */
+
+
+
+/* OUR ACCORDION WRAPPER (END)*/

@@ -1,0 +1,51 @@
+<div ng-include="'sections/products/template/productnav.html'"></div>
+
+<h1>Outdoor</h1>
+
+<div id="container" ng-controller="ctrl">
+    <div ng-include="'sections/products/template/filter.html'"></div>
+
+    <div class="product-container">
+        <div class="item" ng-repeat="item in outdoorproducts">
+            <div class="prd" ng-mouseenter="cartBtn($index)">
+                <img ng-src={{item.img[0]}} alt="" ng-click="pop($index)"><br>
+                <span>{{item.name}}</span><br>
+                <span cla><strong>{{item.price | currency: 'NGN '}}</strong></span><br>
+                <button class="myBtn" ng-click="add($index)">Add To Cart</button> 
+            </div>
+        </div> 
+    </div>
+
+    <!-- pop up product -->
+    <div class="modal-content-container hidden-blur">
+        <div ng-repeat="item in outdoorproducts" id="pop-up" class="modal-content hidden-blur">
+            <div class="img-container">
+                <img ng-src={{item.img[0]}} alt="">
+                <img class="" ng-src={{item.img[1]}} alt="hello"><br>
+                <img class="" ng-src={{item.img[2]}} alt=""><br>
+                <img class="" ng-src={{item.img[3]}} alt=""><br>
+                <img class="" ng-src={{item.img[4]}} alt=""><br>
+                <a class="prev" ng-click="prev($index)">❮</a>
+                <a class="next" ng-click="next($index)">❯</a>
+
+                <div class="dot-container" style="text-align:center">
+                    <span class="dot" ng-repeat="id in myId" ng-click="dotClick($index)"></span> 
+                </div> 
+            </div>
+            
+            <button class="close-btn" ng-click="close($index)">x</button><br>
+            <div>
+                <span>{{item.name}}</span><br>
+                <span class="price">{{item.price | currency: 'NGN '}}</span>
+            </div>
+            
+            <div style="width: 100%; overflow-y: scroll; text-align: left;" class="pop-content">
+                <p><strong>Description:</strong>{{item.description}}</p>
+            </div>
+            <button class="cart-btn" ng-click="add($index)">Add To Cart</button> 
+        </div>
+    </div>
+
+    <div class="blur-bg hidden-blur"></div>
+
+</div>    

@@ -1,0 +1,194 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root{
+    --bg-color: #fff;
+    --bg-color2:  rgba(0, 0, 0, 0.39);
+    --main-color:   rgba(11, 122, 122, 0.808);
+    --text-color: black;
+    --text-color2: grey;
+}
+
+html{   
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body{
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+/* Map */
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+  }
+  iframe{
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    width: 90%;
+    height: 80vh;
+  }
+  /* Map ends here */
+  
+  /*Footer*/
+  .footer{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/six.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--bg-color);
+    line-height: 17px;
+    height: 530px;
+    font-size: 30px;
+    margin-top: 0px;
+    padding: 0px 0 8px 0;
+    height: 100%;
+  }
+  .footer1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:20px;
+    margin-bottom: 0px;
+    padding: 15px;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: var(--bg-color);
+    height: 0%;
+  }
+  .cont{
+    padding: 15px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  .cont h2{
+    font-family: raleway;
+    text-decoration: wavy;
+    color: var(--main-color);
+    border-bottom: 1px solid var(--text-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  .cont .p{
+    line-height: 6px;
+    color: var(--bg-color);
+    font-size: 13.5px;
+  }
+  .small {
+    color: var(--bg-color);
+  }
+  /* p {
+    color: var(--bg-color);
+  } */
+  .cakes {
+    width:50% ;
+  }
+  .copy{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background-color: var(--main-color);
+    color: var(--bg-color) ;
+    font-weight: 200px;
+    margin-top: 30px;
+  }
+  .cont p{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: raleway;
+  }
+  .contact-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--main-color);
+    font-size: 1.5rem;
+  }
+  .bxs-envelope{
+    font-size: 1.3rem;
+    color: var(--main-color);
+  }
+  .bxs-phone-call{
+    font-size: 1.3rem;
+    color: var(--main-color);
+  }
+  .bxs-location-plus{
+    font-size: 1.3rem;
+    color: var(--main-color);
+  }
+  
+  /* Geolocation css starts here */
+  .cont p .daycolor{
+    color: var(--main-color);
+    margin-right: 11px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .cont button{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    width: 90%;
+    height: 18%;
+    background-color: var(--main-color);
+    color:#ffffff;
+    padding: 10px;
+    margin: 0 6px 0 5px;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+  }
+  .cont button:hover{
+    color: var(--main-color);
+    background-color: #fff;
+  }
+  .cont .head p{
+    color: var(--main-color);
+    border-bottom: 1px solid grey;
+    font-family: raleway;
+  }
+  #location{
+    font-size: 1rem;
+    margin: 10px;
+  }
+  #start{
+    background-color: #ffff;
+    padding: 20px 20px 20px 20px;
+    font-weight: 450;
+    color: black;
+    font-size: 12px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    transition: 1xs ease-in-out;
+    text-align: left;
+  }
+  /* Geolocation css ends here */
+  
+  .footer2{
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: var(--main-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footer2 p{
+    letter-spacing: 9px;
+    margin-top: 10px;
+  }
+   @media (max-width:920px){
+    .footer2{
+      font-size: 10px;
+      letter-spacing: 0px;
+      
+    }
+  }
